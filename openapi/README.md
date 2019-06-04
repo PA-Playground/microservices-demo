@@ -46,7 +46,7 @@ docker-compose up -d
 
 Build included docker image with:
 ```
-docker build -t "weaveworksdemos/openapi:latest" .
+docker build --file "Dockerfile" -t "weaveworksdemos/openapi:latest" .
 ```
 
 Run the openapi testing container:
